@@ -1,0 +1,139 @@
+.calc-card {
+  background-color: #333333;
+
+  .icon-big{
+    font-size: 3em;
+    min-height: 64px;
+    i{
+      font-weight: bold;
+      line-height: 59px;
+    }
+  }
+  .numbers{
+    font-size: 2em;
+    text-align: right;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.material-container{
+  font-size: 14px;
+  width: 100%;
+}
+
+.material-table-wood{
+  font-size: 14px;
+  width: 40%;
+}
+
+.material-table-pipe{
+  font-size: 14px;
+  width: 40%;
+}
+
+.customTextGreen {
+  padding: 15px; 
+}
+
+
+
+.measure-switch {
+  align-content: center;
+  margin: 3px;
+  margin-right: 9px;
+}
+
+.customInputText {
+  border-color: #ffffff;
+  border-style: solid;
+  width: 50%;  
+  color: #FFF;
+  font-weight: bold;
+  padding: 1px 1px;
+  margin: 6px 3px;
+  text-align: center;
+  font-size: 24px;
+
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.customInput80 {
+  background-color: #BCD700;
+  color: #000;
+}
+
+.customInput55 {
+  background-color: #FE65A6;
+  color: #000;
+}
+
+.customInput30 {
+  background-color: #1FBED6;
+  color: #000;
+}
+
+.customInputDiameter {
+  background-color: #9966FF;
+  color: #000;
+}
+
+.customInputRadius {
+  background-color: #FFCC00;
+  color: #000;
+}
+
+.customInputArea {
+  background-color: #000;
+  color: #FFF;
+}
+
+.customInputCir {
+  background-color: #666;
+  color: #FFF;
+}
+
+.customInputHeight {
+  background-color: #FF3333;
+  color: #FFF;
+}
+
+.lblCalAll {
+  font-size: 16px;
+  margin: 6px 3px;
+}
+  
+.lblCalsA {
+  color: #BCD700;
+}
+.lblCalsB {
+  color: #FE65A6;
+}
+.lblCalsC {
+  color: #1FBED6;
+}
+.lblCalD{
+  color: #9966FF;
+}
+.lblCalR {
+  color: #FFCC00;
+}
+.lblCalA {
+  color: #fff;
+}
+.lblCalC {
+  color: #999;
+}
+.lblCalH {
+  color: #FF3333;
+}
+
+
+
+.responsiveImage {
+  width: 100%;
+  margin-bottom: 10px;
+}

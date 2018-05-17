@@ -1,0 +1,57 @@
+.customTextGreen {
+  padding: 15px; 
+}
+
+.customInputText {
+  border-color: #FFFFFF;
+  width: 50%;  
+  color: #FFF;
+  font-weight: bold;
+  padding: 1px 1px;
+  margin: 3px 3px;
+  text-align: center;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.customInput80 {
+  background-color: #BCD700;
+  color: #000;
+}
+
+.customInput55 {
+  background-color: #FE65A6;
+  color: #000;
+}
+
+.customInput30 {
+  background-color: #1FBED6;
+  color: #000;
+}
+
+.customInputDiameter {
+  background-color: #9966FF;
+  color: #000;
+}
+
+.customInputRadius {
+  background-color: #FFCC00;
+  color: #000;
+}
+
+.customInputArea {
+  background-color: #000;
+  color: #FFF;
+}
+
+.customInputCir {
+  background-color: #666;
+  color: #FFF;
+}
+
+.customInputHeight {
+  background-color: #FF3333;
+  color: #FFF;
+}
