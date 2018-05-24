@@ -12,6 +12,9 @@ import domeFrequency1 from "assets/img/info/geodome-frequency.png";
 import domeFrequency2 from "assets/img/info/geodome-frequency2.png";
 import domeAdvantages from "assets/img/info/diagram-advantages.jpg";
 
+import domeDrawing1 from "assets/img/pictures/fuller1.jpg";
+import domeDrawing2 from "assets/img/pictures/fuller2.jpg";
+
 class DomeInfo extends Component{
   componentDidUpdate(e){
     if (window.matchMedia(`(min-width: 960px)`).matches && !this.isMac()) {
@@ -103,7 +106,7 @@ class DomeInfo extends Component{
           eventKey="1">
 
 
-          <img src={domeFrequency2} className="responsiveImage"/>
+          <img src={domeDrawing1} className="responsiveImage"/>
           <p>
             <center>
               The “base” triangle of a 3V Dome (Shown on the Left) has 3 subdivisions on all sides
@@ -114,7 +117,7 @@ class DomeInfo extends Component{
             The frequency of a geodesic dome indicates how many times each side of the base triangle is subdivided. For example frequency 3 means the base triangle is divided into 3 sections (or triangles) on each side.
           </p>
 
-          <img src={domeFrequency1} className="responsiveImage"/>
+          <img src={domeDrawing2} className="responsiveImage"/>
           <p>
 
             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
@@ -131,8 +134,10 @@ class DomeInfo extends Component{
             </div>
           }
           eventKey="2">
-
-
+          Buckminster Fuller Institute
+          https://www.bfi.org/about-fuller
+          
+          https://en.wikipedia.org/wiki/Fullerene
 
           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
         </Panel>
@@ -180,8 +185,7 @@ class DomeInfo extends Component{
                 category="More information here"
                 content={
                   <div>
-                    <p>Larger, yet dramatically thinner. More powerful, but remarkably power efficient. With a smooth metal surface that seamlessly meets the new Retina HD display.</p>
-                    <p>The first thing you notice when you hold the phone is how great it feels in your hand. There are no distinct edges. No gaps. Just a smooth, seamless bond of metal and glass that feels like one continuous surface.</p>
+                    <p>Under Construction.</p>
                   </div>
                 }
                 />
@@ -200,12 +204,11 @@ class DomeInfo extends Component{
             </Tab.Pane>
             <Tab.Pane eventKey="legal">
               <Card
-                title="Legal items"
-                category="More information here"
+                title="Legal Info Regarding Geo-Domes"
+                category="Links and more information"
                 content={
                   <div>
-                    <p>The first thing you notice when you hold the phone is how great it feels in your hand. The cover glass curves down around the sides to meet the anodized aluminum enclosure in a remarkable, simplified design.</p>
-                    <p>Larger, yet dramatically thinner.It’s one continuous form where hardware and software function in perfect unison, creating a new generation of phone that’s better by any measure.</p>
+                    <p>Building permits are different per Country, State, Region and County.  In some cases, particular types of Geo-Domes can be created without a permit. More information in this section soon.</p>
                   </div>
                 }
                 />
@@ -230,24 +233,24 @@ class DomeInfo extends Component{
       <div className="main-content">
         <Grid fluid>
           <Row>
-            <Col md={6}>
+            <Col lg={4} sm={6}>
               <Card
-                title="Multiple Expandable Panels"
-                category="Bootstrap default style"
+                title="Basic GeoDome Info"
+                category="Information about building GeoDomes"
                 content={defaultPanel}
                 />
             </Col>
-            <Col md={6}>
+            <Col lg={4} sm={6}>
               <Card
-                title="Multiple Expandable Panels"
-                category="Bootstrap default style"
+                title="Geo-Desic Dome History"
+                category="Architect R. Buckminster Fuller"
                 content={moreInfo}
                 />
             </Col>
           </Row>
           <Row>
             <Col md={8} mdOffset={2}>
-              <h4 className="title text-center">Page Subcategories</h4>
+              <h4 className="title text-center">Info</h4>
               <br />
               {pageSubcategories}
             </Col>

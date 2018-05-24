@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "dependencies": {
+        "aws": "0.0.3-2",
         "brew": "0.0.8",
         "chartist": "^0.10.1",
         "create-react-app": "^1.3.3",
